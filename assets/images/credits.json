@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fontanka",
+    "file": "assets/images/fontanka.jpg",
+    "title": "File:Fontanka river SPB 5.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Fontanka_river_SPB_5.jpg",
+    "author": "Florstein (Telegram:WikiPhoto.Space)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "bridge",
+    "file": "assets/images/bridge.jpg",
+    "title": "File:Panteleymonovsky Bridge 1.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Panteleymonovsky_Bridge_1.jpg",
+    "author": "Florstein (Telegram:WikiPhoto.Space)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "karpovka",
+    "file": "assets/images/karpovka.jpg",
+    "title": "File:Karpovka River Embankment 06.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Karpovka_River_Embankment_06.jpg",
+    "author": "Florstein (Telegram:WikiPhoto.Space)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "austria",
+    "file": "assets/images/austria.jpg",
+    "title": "File:043. Saint Petersburg. Kamennoostrovsky Avenue, 15.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:043._Saint_Petersburg._Kamennoostrovsky_Avenue,_15.jpg",
+    "author": "GAlexandrova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "cathedral",
+    "file": "assets/images/cathedral.jpg",
+    "title": "File:Transfiguration Cathedral (Saint Petersburg).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Transfiguration_Cathedral_(Saint_Petersburg).jpg",
+    "author": "No machine-readable author provided. Sergey kudryavtsev assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": ""
+  }
+]

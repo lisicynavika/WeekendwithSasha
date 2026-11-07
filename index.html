@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff4e6"><meta name="description" content="Наш культурный уикенд в Петербурге: пять маршрутов на 14 и 15 ноября 2026 года.">
+  <title>Программы на наш культурный отдых · Петербург</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Unbounded.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>try{const t=localStorage.getItem('weekend-theme');document.documentElement.dataset.theme=t==='dark'?'dark':'light'}catch(e){}</script>
+  <script src="js/data.js" defer></script><script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#programs">К программам</a>
+<header class="topbar wrap">
+ <a href="#top" class="brand" aria-label="Наш культурный уикенд, наверх">НАШ<br>КУЛЬТУРНЫЙ <span>✳</span></a>
+ <nav aria-label="Основная навигация"><a href="#programs">Программы</a><a href="#gallery">В объективе</a><a href="#choice">Наш выбор</a></nav>
+ <button id="theme" class="pill theme" aria-label="Включить тёмную тему" aria-pressed="false"><span aria-hidden="true">◐</span> <span id="theme-label">Тёмная тема</span></button>
+</header>
+<main id="top">
+ <section class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero-copy"><div class="eyebrow">Санкт-Петербург · 14–15 ноября 2026</div>
+   <h1 id="hero-title">Программы<br>на наш<br><span>культурный</span><br>отдых<span class="flower" aria-hidden="true">✳</span></h1>
+   <div class="hero-bottom"><p>Я старалась, надеюсь<br> вы зацените хаха</p><a class="pill primary" href="#programs">Выбираем приключение <span>↘</span></a></div>
+  </div>
+  <div class="hero-art"><div class="pink-arch"></div><button class="hero-photo photo-button" data-photo="bridge" aria-label="Открыть фотографию Пантелеймоновского моста"><img src="assets/images/bridge.jpg" alt="Пантелеймоновский мост в Санкт-Петербурге" width="1200" height="900" fetchpriority="high"></button><span class="sticker">5 друзей<br>2 дня<br>∞ впечатлений</span><span class="handwritten">город, мы идём!</span><span class="spark" aria-hidden="true">✷</span></div>
+ </section>
+ <div class="ribbon" aria-hidden="true"><span>СОБИРАЕМ МОМЕНТЫ ✳ ГУЛЯЕМ БЕЗ СПЕШКИ ✳ ПРОБУЕМ НОВОЕ ✳ СОБИРАЕМ МОМЕНТЫ ✳</span></div>
+ <section id="programs" class="programs wrap" aria-labelledby="programs-title">
+  <div class="section-intro"><div><span class="eyebrow">Наш маленький travel-журнал</span><h2 id="programs-title">Какой у нас <em>план?</em></h2></div></div>
+  <div class="date-bar"><div class="tabs" role="tablist" aria-label="День отдыха"><button id="tab14" role="tab" data-day="14" aria-controls="day-panel" aria-selected="true"><b>14</b><span>ноября<small>Суббота</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button><button id="tab15" role="tab" data-day="15" aria-controls="day-panel" aria-selected="false" tabindex="-1"><b>15</b><span>ноября<small>Воскресенье</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button></div><p id="day-count">03 варианта / один прекрасный день</p></div>
+  <nav id="variant-nav" class="variant-nav" aria-label="Быстрый переход к варианту"></nav>
+  <div id="day-panel" role="tabpanel" aria-labelledby="tab14" tabindex="0"></div>
+ </section>
+ <section id="choice" class="choice wrap" aria-labelledby="choice-title"><div><span class="eyebrow">Это то, за что голосую я</span><h2 id="choice-title">Наши <em>планы</em><span aria-hidden="true">♡</span></h2></div><div id="chosen" aria-live="polite"></div></section>
+ <section id="gallery" class="gallery wrap" aria-labelledby="gallery-title"><div class="section-intro"><div><span class="eyebrow">Остановиться. Посмотреть. Снять.</span><h2 id="gallery-title">В <em>объективе</em></h2></div></div><div id="photo-grid" class="photo-grid"></div></section>
+ <section class="notes wrap"><span class="big-star" aria-hidden="true">✳</span><div><h2>Оставим место<br>для спонтанности</h2><p>Желательно определиться в ближайшие дни, тогда я сразу все забронирую на нас</p></div></section>
+</main>
+<footer class="wrap"><a class="brand" href="#top">НАШ КУЛЬТУРНЫЙ ✳</a><span>Сделано с любовью</span><a href="assets/images/credits.json">Источники фотографий ↗</a></footer>
+<a href="#top" class="back-top" aria-label="Вернуться наверх">↑</a>
+<dialog id="lightbox" aria-labelledby="lightbox-caption"><div class="lightbox-top"><span id="photo-count"></span><button id="close-gallery" class="pill" aria-label="Закрыть галерею">Закрыть ×</button></div><div class="lightbox-body"><button id="previous-photo" aria-label="Предыдущая фотография">←</button><img id="lightbox-image" alt=""><button id="next-photo" aria-label="Следующая фотография">→</button></div><p id="lightbox-caption"></p><div id="photo-credit"></div><p class="gallery-hint">← → листать · Esc закрыть · на телефоне можно смахнуть</p></dialog>
+<div id="toast" role="status" class="toast"></div>
+<noscript><p class="no-js">Для переключения программ включите JavaScript. Полный исходный план: <a href="Техническое задание.txt">Техническое задание</a>.</p></noscript>
+</body></html>
